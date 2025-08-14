@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.99158946.css",
+    "main.js": "/static/js/main.931948cd.js",
+    "static/media/analiza-sylwetki.png": "/static/media/analiza-sylwetki.ac16c16ff4e78223a99b.png",
+    "static/media/analiza-kolorystyczna.png": "/static/media/analiza-kolorystyczna.0d0b3120928b65f2ddaf.png",
+    "static/media/szafa-kapsulowa-2.png": "/static/media/szafa-kapsulowa-2.73b31b6f758c5610e412.png",
+    "static/media/analiza-sylwetki-2.png": "/static/media/analiza-sylwetki-2.c4ba1b5c17b8c0392eb0.png",
+    "static/media/zakupy-ze-stylistka-1.png": "/static/media/zakupy-ze-stylistka-1.ec283761148e328a5f6c.png",
+    "static/media/zakupy-ze-stylistka.png": "/static/media/zakupy-ze-stylistka.5be7031a81e5535754b4.png",
+    "static/media/przeglad-szafy.png": "/static/media/przeglad-szafy.ff56b68ed820905f0d59.png",
+    "static/media/szafa-kapsulowa.png": "/static/media/szafa-kapsulowa.9c893141bca320962414.png",
+    "static/media/analiza-ksztaltu-twarzy.png": "/static/media/analiza-ksztaltu-twarzy.f09b4efd8481b143b202.png",
+    "static/media/szafa-kapsulowa-3.jpg": "/static/media/szafa-kapsulowa-3.eba219dd650119500a18.jpg",
+    "static/media/analiza-kolorystyczna-2.jpg": "/static/media/analiza-kolorystyczna-2.924ef4ad16061b1d5bca.jpg",
+    "static/media/przeglad-szafy-3.jpg": "/static/media/przeglad-szafy-3.93034dc1641caa08a1f2.jpg",
+    "static/media/przeglad-szafy-2.jpg": "/static/media/przeglad-szafy-2.7bb8f500bd98c1fb6f41.jpg",
+    "static/media/przeglad-szafy-1.jpg": "/static/media/przeglad-szafy-1.46616bed989372d845b1.jpg",
+    "static/media/analiza-kolorystyczna-1.jpg": "/static/media/analiza-kolorystyczna-1.6b4762cc8258c0f6164b.jpg",
+    "static/media/zakupy-ze-stylistka-3.jpg": "/static/media/zakupy-ze-stylistka-3.69061f2bd315f604cf50.jpg",
+    "static/media/zakupy-ze-stylistka-2.jpg": "/static/media/zakupy-ze-stylistka-2.4b56a85fdf5616afb427.jpg",
+    "static/media/analiza-sylwetki-3.jpg": "/static/media/analiza-sylwetki-3.f72cbc174a4da9e2241a.jpg",
+    "static/media/analiza-sylwetki-1.jpg": "/static/media/analiza-sylwetki-1.329c8951b13754577292.jpg",
+    "static/media/szafa-kapsulowa-1.jpg": "/static/media/szafa-kapsulowa-1.7940debb16bf6bd51178.jpg",
+    "static/media/analiza-ksztaltu-twarzy-1.jpg": "/static/media/analiza-ksztaltu-twarzy-1.38a75f6bc998ce21b8ca.jpg",
+    "static/media/analiza-ksztaltu-twarzy-3.jpg": "/static/media/analiza-ksztaltu-twarzy-3.e56318d66910e4c25e82.jpg",
+    "static/media/analiza-kolorystyczna-3.jpg": "/static/media/analiza-kolorystyczna-3.0b3078e3dd1f6fe7afb0.jpg",
+    "static/media/analiza-ksztaltu-twarzy-2.jpg": "/static/media/analiza-ksztaltu-twarzy-2.7ce6cc6ce5280af44c3c.jpg",
+    "static/media/logo-pieknaistylowa.png": "/static/media/logo-pieknaistylowa.c422f8db940df068b1cb.png",
+    "index.html": "/index.html",
+    "main.99158946.css.map": "/static/css/main.99158946.css.map",
+    "main.931948cd.js.map": "/static/js/main.931948cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99158946.css",
+    "static/js/main.931948cd.js"
+  ]
+}
