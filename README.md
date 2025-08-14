@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+# 🛍️ Stylistka Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplikacja fullstack dla stylistki – katalog usług, koszyk, składanie zamówień i panel zamówień.
 
-## Available Scripts
+## 📦 Funkcje
 
-In the project directory, you can run:
+- **Frontend (React + Redux)**
+  - Strona główna z listą usług
+  - Szczegóły usługi
+  - Koszyk z dodawaniem, usuwaniem i notatkami
+  - Formularz zamówienia (checkout)
+  - Strona potwierdzenia zamówienia
+  - Panel zamówień dla stylistki (lista + szczegóły)
 
-### `npm start`
+- **Backend (NestJS + MySQL + TypeORM)**
+  - API `/products` i `/orders`
+  - Walidacja danych (DTO + ValidationPipe)
+  - Zapis zamówień do bazy
+  - Domyślny seed produktów
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🗂 Struktura projektu
 
-### `npm test`
+.
+├── client/ # Frontend (React)
+└── server/ # Backend (NestJS)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚙️ Wymagania
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js v18+
+- MySQL 8+ lub kompatybilny
+- npm
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚀 Instalacja i uruchomienie
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Sklonuj repozytorium**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+git clone https://github.com/twoj-login/twoje-repo.git
+cd twoje-repo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Skonfiguruj zmienne środowiskowe**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Skopiuj pliki .env.sample do .env w client/ i server/ i uzupełnij wartości:
 
-## Learn More
+cp client/.env.sample client/.env
+cp server/.env.sample server/.env
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. **Zainstaluj zależności**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+cd client && npm install
+cd ../server && npm install
 
-### Code Splitting
+4. **Uruchom backend**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+cd server
+npm run start:dev
 
-### Analyzing the Bundle Size
+5. **Uruchom frontend**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+cd client
+npm start
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🔑 Zmienne środowiskowe
 
-### Advanced Configuration
+client/.env
+REACT_APP_API_URL=http://localhost:4000/api
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+server/.env
+DB_HOST=localhost
+DB_PORT=3306
+DB_USER=stylistka
+DB_PASS=twoje-haslo
+DB_NAME=stylistka_shop
+PORT=4000
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📜 Licencja
 
-### `npm run build` fails to minify
+MIT
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## 🛠 Użyte technologie
+
+**Frontend**
+- React 18
+- Redux Toolkit
+- React Router
+- CSS/SCSS Modules
+
+**Backend**
+- NestJS 10
+- TypeORM
+- MySQL 8
+- Class-validator / class-transformer (walidacja DTO)
+- CORS
+
+**Inne**
+- Node.js 18+
+- npm
