@@ -1,3 +1,8 @@
+# Piękna i Stylowa
+
+Link do działającej aplikacji: [https://pieknaistylowa-shop-jfn7.onrender.com/](https://pieknaistylowa-shop-jfn7.onrender.com/)
+
+
 # 🛍️ Stylistka Shop
 
 Aplikacja fullstack dla stylistki – katalog usług, koszyk, składanie zamówień i panel zamówień.
